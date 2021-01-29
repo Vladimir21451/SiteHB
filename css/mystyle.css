@@ -1,0 +1,168 @@
+/* roboto-300 - latin_cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/roboto-v20-latin_cyrillic-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin_cyrillic-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-regular - latin_cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500 - latin_cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/roboto-v20-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  html{
+      max-width: 1920px;
+      height: 500px;
+  }
+ /* body{
+    background-color: #eeeff1;
+}*/
+.section_first{
+    padding-bottom: 10rem;
+    background-color: #eeeff1;
+}
+.col-lg-1{
+    position: absolute;
+    left: 10.44%;
+    right: 73.56%;
+    top: 6.57%;
+    bottom: 83.14%;
+    padding-top: 56px;
+}
+.nav_menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size:16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+ }
+ .menu__link:hover, .menu__link:focus, .menu__link:active{
+     color: #ff0000;
+     text-decoration: none;
+ }
+/* .col-lg-4{
+     position: absolute;
+     left: 25.36%;
+     right: 56.04%;
+     top: 38.14%;
+     bottom:28.37%;
+ }*/
+ .row row_2{
+     justify-content: space-between; 
+ }
+.button_write{
+    background-color: indigo;
+    color:lavender;
+}
+.col-lg-5{
+    padding: 0;
+    margin-left: 5rem;
+}
+.button_write{
+    width: 235px;
+    height: 65px;
+    top: 478px;
+    left: 975px;
+}
+/* вторая секция*/
+.section_second{
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+.about,.work{
+    font: bold;
+    text-align: center;
+}
+.p2{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    width: 500px;
+    margin: 0 auto;
+}
+.row_4{
+    width:1920px;
+    height: 200px;
+    background-color: #34547a;
+}
+.images{
+    margin: 0;
+    padding-top: 60px;
+    padding-left: 0;
+}
+.row_5{
+    padding-top: 4rem;
+}
+.navyk{
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+/* третья секция*/
+.section_third{
+    background-color: #eeeef1;
+    width: 1280px;
+    height: 1004px;
+}
+.p3{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    width: 540px;
+    margin: 0 auto;  
+}
+.work{
+    padding-top: 4rem;
+}
+.embed-responsive-item{
+    position: absolute;
+    padding-bottom: 3rem;;
+    width: 800px;
+    height: 400px;
+}
+.gallery{
+    display: flex;
+   /* padding-top: 5rem;*/
+    width: 100%;
+}
+.R7_0{
+   margin-left: -200px;
+}
+/*section fourth*/
+.section_fourth{
+    background-color: #eeeef1;
+    width: 1280px;
+    height: 1004px;
+}
+.row_10{
+    display: flex;
+    align-items: flex-start;
+    width: 1280px;
+    height: 200px;
+    background-color: #34547a;
+}
+.footer{
+    padding: 6rem 0 0 0;
+    margin: 0;
+    color:white;
+}
+
+ 
